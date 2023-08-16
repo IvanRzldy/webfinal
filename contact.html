@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEBSITE DINAMIS</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    
+    <style>
+      #grad1 {
+        height: 200px;
+        background-color: white;
+        background-image: linear-gradient(red, white);
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      input[type="text"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+
+      input[type="submit"] {
+        background-color: #04aa6d;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+
+      .container-form {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--bootstrap-->
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="kontak.png" alt="" width="30" height="30">
+        </a>
+        <a class="navbar-brand ms-start href="#"><b>CONTACT</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="index.html"><b>Home</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="about.html"><b>About</b></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--navbar-->
+    <div id="grad1"></div>
+
+    <center>
+      <h3><b>Hubungi Kami</b></h3>
+          <br />
+          Jika anda mengalami kendala atau keluhan silahkan hubungi salah satu nomor dibawah ini atau tulis saja keluhan yang ada dibawah ini
+          <br /><br />
+      </center>
+           <br>
+           <br>
+          <ol>
+
+
+            <li><strong>Ivan Rizaldy(LEADER)</strong><br>
+              <img src="ivang_gunung.jpg" width="200" height="300"><br>
+              MOTO:</br>
+               "terluka sedikit bukan berarti aku sakit tetapi aku butuh medkit"
+              <br>NO TELP: 0896 3674 3794
+            </li>
+            <br>
+            <br>
+            <li><strong>Omar Ashfaa Hadi(CO LEADER)</strong><br>
+              <img src="kang_pukul.jpg" width="200" height="300"><br>
+              MOTO:</br>
+               "Saya pemain minecraft maka itu saya tau bahwa membangun gerbang neraka lebih mudah daripada membangun gerbang surga"
+              <br>NO TELP: 0812 8910 0991
+            </li>
+            <br>
+            <br>
+            <li><strong>Dersyah Rizky Akbar(WEBSITE BUILDER)</strong><br>
+              <img src="dersyah_safari666.jpg" width="200" height="300"><br>
+              MOTO:</br>
+               "Pemograman itu seperti wanita, kukira punya logika yang sama ternyata cuma salah sangka"
+              <br>NO TELP: 0895 1449 6704
+            </li>
+            <br>
+            <br>
+            <li><strong>Muhammad Kamil Arrasyid(WEBSITE PAINTER)</strong><br>
+              <img src="WhatsApp Image 2023-08-13 at 14.41.07.jpg" width="200" height="200"><br>
+              MOTO:</br> "Contohlah tukang parkir,meskipun punya banyak mobil,ia tak pernah sombong<br>karena ia tahu semua itu hanya titipan"
+              <br>NO TELP: 0896 7006 7309
+            </li>
+          </ol>
+      <br>
+      <br>
+      <br>
+    <h3>KELUHAN</h3>
+
+    <div class="container-form">
+      <form>
+        <label for="fname">Nama Depan</label>
+        <input type="text" id="fname" name="firstname" placeholder="Nama Depanmu.." />
+
+        <label for="lname">Nama Belakang</label>
+        <input type="text" id="lname" name="lastname" placeholder="Nama belakangmu.." />
+
+        <label for="country">Alamat</label>
+        <input type="text" id="country" name="Alamat" placeholder="Alamatmu.." />
+
+        <label for="subject">Pesan</label>
+        <textarea id="subject" name="subject" placeholder="Tulis sesuatu.." style="height: 200px"></textarea>
+
+        <button type="submit">KIRIM</button>
+      </form>
+    </div>
+  </body>
+</html>
